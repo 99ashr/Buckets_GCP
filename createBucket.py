@@ -5,7 +5,7 @@ from google.cloud import storage
 def new_bucket(bucket_name):
 
     storage_client = storage.Client.from_service_account_json(
-        "./yash-rnd-031df0bc7bfa.json"
+        "path_to_service_key.json"
     )
 
     # Creating bucket
